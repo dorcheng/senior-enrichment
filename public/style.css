@@ -1,0 +1,104 @@
+body {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  line-height: 1.2;
+  background: url('./background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #1E1B16;
+}
+
+.navbar {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  background-color: #7BA69D;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 1em;
+  color: #241F17;
+}
+
+h4 {
+  margin-top: 1.1em;
+  color: #B1434C;
+  font-size: 36px;
+}
+
+h5 {
+  color: #B1434C;
+  font-size: 28px;
+}
+
+.reassign {
+  color: #1E1B16;
+}
+
+a {
+  color: #F9F8FD;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c71045;
+}
+
+.btn {
+  border-color: #B1434C;
+  background-color: #B1434C;
+  color: #F9F8FD;
+}
+
+.create {
+  margin-top: 3em;
+  margin-left: .5em;
+  font-size: 18px;
+}
+
+.btn:hover {
+  border-color: #c71045;
+  background-color: #c71045;
+  color: #F9F8FD;
+}
+
+.addstudent {
+  margin-left: 10em;
+}
+
+li {
+  padding-left: 20px;
+}
+
+.table {
+  margin-top: none;
+}
+
+.table td, .table th {
+  border-top: 0px;
+  vertical-align: 0px;
+}
+
+.form-control {
+  font-size: 18px;
+}
